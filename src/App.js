@@ -49,7 +49,7 @@ class App extends React.Component {
     }
     else{
       
-    let path = 'https://15.206.210.184/accession?accession_no='+accession+'&ontology='+ontology
+    let path = 'https://multipred.co.in/accession?accession_no='+accession+'&ontology='+ontology
     this.setState({ loading: true },()=>{
       axios.get(path).then( 
         (response) => { 
