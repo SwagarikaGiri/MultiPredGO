@@ -5,7 +5,7 @@ class LoadingPage extends React.Component {
     render(){
         return(
             <div>
-                <h5  className="section-subheading">Please wait for some to get the results </h5>
+                <h5  className="section-subheading">Please wait for some time to get the results </h5>
             </div>
         )
     }
