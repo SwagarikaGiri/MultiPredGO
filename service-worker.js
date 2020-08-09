@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/MultiPredGO/precache-manifest.91fb83f2bfc0fe124c3c524a0f159486.js"
+  "/MultiPredGO/precache-manifest.973ee968357b4b96e50bd5774a861f4e.js"
 );
 
 self.addEventListener('message', (event) => {

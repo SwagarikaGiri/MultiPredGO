@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "567d3c2c47e89141c942ccd4f80ae4e6",
+    "revision": "eecdb7d17693153761415ba9b38af876",
     "url": "/MultiPredGO/index.html"
   },
   {
-    "revision": "a2aae25dc34cb8d5c759",
+    "revision": "450a384ce61a0a4ec394",
     "url": "/MultiPredGO/static/css/main.be68518a.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MultiPredGO/static/js/2.7ca24509.chunk.js"
   },
   {
-    "revision": "a2aae25dc34cb8d5c759",
-    "url": "/MultiPredGO/static/js/main.f3548776.chunk.js"
+    "revision": "450a384ce61a0a4ec394",
+    "url": "/MultiPredGO/static/js/main.f60bc27b.chunk.js"
   },
   {
     "revision": "21658d005f61538be116",
