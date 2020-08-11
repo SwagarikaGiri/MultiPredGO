@@ -45,7 +45,7 @@ class App extends React.Component {
     let accession = this.state.accession
     let ontology = this. state.ontology
     if(!accession || !ontology){
-      this.setState({submitError:'Please enter Accession No and select the ontology' })
+      this.setState({submitError:'Please enter UniProt Proteins Accession No and select the ontology' })
     }
     else{
       
@@ -124,9 +124,10 @@ class App extends React.Component {
         <div className="row">
           <div className="col-lg-12 text-center">
             <h2 className="section-heading text-uppercase">Get Results </h2>
-            <h3 className="section-subheading text-muted">This tool only needs protein sequence as an input. The source code of the model is available on <a href="https://github.com/SwagarikaGiri/Multi-PredGO"><h6>Github Link</h6></a> Example Accession Number : P31946, P68510, P31946</h3>
+            <h3 className="section-subheading text-muted">This tool only needs UniProt Proteins accession number as an input. The source code of the model is available on <a href="https://github.com/SwagarikaGiri/Multi-PredGO"><h6>Github Link</h6></a> Example Accession Number : P31946, P68510, P31946</h3>
            
-            <h6>Please enter the accession number and select the ontology</h6>
+            <h6>Please enter the UniProt Proteins accession number and select the ontology</h6>
+            <h6>Can select accession number from list <a href="https://github.com/SwagarikaGiri/Multi-predGOBackendAWS/blob/master/List_Accession_No.txt"></a></h6>
            
             <form id="contactForm" name="sentMessage"  onSubmit={this.onHandleSubmit}>
             {/* <div className="row"> */}
