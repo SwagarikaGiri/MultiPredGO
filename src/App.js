@@ -107,7 +107,7 @@ class App extends React.Component {
     <header className="masthead">
       <div className="container">
         <div className="intro-text">
-          <div className="intro-lead-in">Multi-PredGO is a multi-modal protein function prediction model that uses the protein sequence, protein structure, and protein-protein interaction network-based information to predict GO-based protein function. 
+          <div className="intro-lead-in">MultiPredGO is a multi-modal protein function prediction model that uses the protein sequence, protein structure, and protein-protein interaction network-based information to predict GO-based protein function. 
           As the protein function classes are dependent on each other, we have used a neuro-symbolic hierarchical classification model,
            which resembles the structure of Gene Ontology (GO), for effectively predicting the dependent protein functions.</div>
           {/* <div className="intro-heading text-uppercase"></div> */}
@@ -124,7 +124,7 @@ class App extends React.Component {
         <div className="row">
           <div className="col-lg-12 text-center">
             <h2 className="section-heading text-uppercase">Get Results </h2>
-            <h3 className="section-subheading text-muted">This tool only needs protein sequence as an input. The source code of the model is available on <a href="https://github.com/SwagarikaGiri/Multi-PredGO"><h6>Github Link</h6></a> Example Accession Number : Q15287, Q9GZN7, A4X3Q0</h3>
+            <h3 className="section-subheading text-muted">This tool only needs protein sequence as an input. The source code of the model is available on <a href="https://github.com/SwagarikaGiri/Multi-PredGO"><h6>Github Link</h6></a> Example Accession Number : P31946, P68510, P31946</h3>
            
             <h6>Please enter the accession number and select the ontology</h6>
            
